@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Advanced Search</title>
+  <style>
+    .field {
+      text-align: right;   
+    }
+    body {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <table align="right">
+    <tbody>
+      <tr>
+        <td>
+          <a href="googlesearch.html">Google Search</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="googleimages.html">Image Search</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="mainpage.html">Home Page</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table align="center">
+    <form action="https://google.com/search" name="f">
+      <tbody>
+        <tr>
+          <td>
+            <div class="field">
+                <label for="field1">all these words:</label>
+                <input type="text" class="textinput" id="field1" value=""  name="as_q">
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="field">
+                <label for="field2">this exact word or phrase: </label>
+                <input type="text" class="textinput" id="field2" value=""  name="as_epq">
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="field">
+                <label for="field3">any of this words: </label>
+                <input type="text" class="textinput" id="field3" value=""  name="as_oq">
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="field">
+                <label for="field4">none of these words: </label>
+                <input type="text" class="textinput" id="field4" value=""  name="as_eq">
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="field">
+                <input type="submit" value="Advanced search">
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </form>
+  </table>
+</body>
+</html>
